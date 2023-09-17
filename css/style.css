@@ -23,6 +23,7 @@
 
 .interactive-button a {
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 #start-button > a {
@@ -48,6 +49,10 @@
 
 .row-flex {
     display: flex;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 .justify-center {
@@ -105,7 +110,6 @@ h1 {
     font-size: 80px;    
 }
 
-
 #hero {
     padding-top: 60px;
     position: relative;
@@ -119,7 +123,7 @@ h1 {
 header i {
     font-size: 55px;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     left: 0;
 }
 
@@ -127,6 +131,120 @@ header i {
     width: 70%;
 }
 
-.content-hero-padding {
+.content-hero-margin {
     margin-bottom: 30px;
+}
+
+/* main */
+
+main i {
+    margin-right: 5px;
+}
+
+section {
+    padding: 0 90px;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 170px 0 20px 0;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 15px;
+    margin: 40px 0 20px 0;
+}
+
+input {
+    margin-bottom: 50px;
+}
+
+input:nth-child(3) {
+    margin-left: 30px;
+}
+
+
+.empty-space-line {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid black;
+    width: calc(100% / 3 - 30px);
+}
+
+.title-card {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.card-content {
+    padding: 30px
+}
+
+.card-content .interactive-button:nth-child(7){
+    margin: 40px 0 20px 0;
+}
+
+.per-month {
+    margin-bottom: 40px;
+}
+
+.card-font {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+}
+
+#team-card {
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+#team-card h5 {
+    margin: 0 0 40px 0;
+}
+
+#find-partner {
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#find-partner > a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.row-reverse img {
+    width: 60%;
+}
+
+#paragraph-partner {
+    padding: 50px;
+}
+
+#paragraph-partner p {
+    margin-bottom: 30px;
+}
+
+#partner-margin {
+    margin-top: 150px;
 }
