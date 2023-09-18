@@ -96,6 +96,13 @@
     align-content: center;
 }
 
+.faq-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
 /* header */
 
 header {
@@ -405,4 +412,27 @@ article h3 {
 
 #dropbox-enterprise-padding {
     padding: 90px;
+}
+
+/* FAQ */
+
+.faq-flex h4 {
+    margin: 0;
+}
+
+.faq-flex h4, i {
+    line-height: 80px;
+}
+
+.faq-flex:nth-child(1) {
+    border-top: 1px solid rgba(0, 0, 0, .3);
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.faq-flex:nth-child(2) {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.faq-flex:nth-child(3) {
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
