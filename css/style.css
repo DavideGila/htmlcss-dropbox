@@ -451,12 +451,12 @@ footer {
     background-color: var(--primary-color);
 }
 
-li {
+footer li {
     color: var(--secondary-color);
     line-height: 35px;
 }
 
-li a {
+footer li a {
     text-decoration: none;
     color: var(--secondary-color);
 }
