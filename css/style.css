@@ -114,6 +114,7 @@
 
 header {
     background-color: var(--bg-header-squares);
+    margin-top: 80px;
 }
 
 header a {
@@ -123,6 +124,12 @@ header a {
 
 nav {
     background-color: var(--secondary-color);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 header ul {
@@ -176,7 +183,6 @@ header i {
 }
 
 /* main */
-
 
 main i {
     margin-right: 5px;
